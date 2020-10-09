@@ -1,0 +1,156 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(39, 39, 39);
+  line-height: 1.5rem;
+  padding-top: 50px;
+}
+#display{
+  width: 30%;
+  height: 200px;
+  background: #fff;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+#container{
+  border-radius: 10px;
+  width: 59%;
+  height: 250px;
+  margin: auto;
+  box-shadow: 0 0 8px gray;
+  margin-top: 20px;
+  padding: 5px;
+  background: #333;
+  color: white;
+}
+#keybord{
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+}
+.rows{
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+}
+.row2{
+  text-align: center;
+}
+.row3{
+  text-align: center;
+}
+.row4{
+  text-align: center;
+}
+.row5{
+  text-align: center;
+}
+.row6{
+  text-align: center;
+}
+.backspace{
+  padding: 0 3px 0 15px
+}
+.top{
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 0 5px 0 gray;
+}
+.top:hover{
+  background: rgb(80, 80, 80);
+}
+.fs{
+  width: 6%;
+  height: 20px; 
+  margin: 2px;
+  font-size: small;
+  position: relative;
+}
+.fs p{
+  position: absolute;
+  top: -5px;
+  left: 2px;
+}
+.digit{
+  margin: 2px;
+  width: 7%;
+  height: 30px;
+}
+.digit:last-child{
+  width: max-content; 
+}
+.tab{
+  margin: 2px;
+  width: 7%;
+  height: 30px;
+}
+.tab:first-child{
+  width: 70px;
+  padding-left: 4px;
+  text-align: left;
+}
+.caps{
+  margin: 2px;
+  width: 7%;
+  height: 30px;
+}
+.caps:first-child{
+  width: 90px;
+  text-align: left;
+  padding-left: 4px;
+}
+.caps:last-child{
+  width: 80px;
+  padding-left: 35px;
+}
+.shift{
+  margin: 2px;
+  height: 30px;
+  width: 6.8%;
+}
+.shift:first-child{
+  width: 100px;
+  padding-right: 59px;
+}
+.shift:nth-child(12){
+  width: 100px;
+  padding-left: 55px;
+}
+.ctrl{
+  margin: 2px;
+  width: 7%;
+  height: 30px;
+}
+.ctrl:first-child{
+  text-align: left;
+  padding-left: 4px;
+}
+.ctrl:nth-child(5){
+  width: 300px;
+}
+.ctrl:nth-child(9){
+  box-shadow: none;
+}
+.ctrl:nth-child(8){
+  height: 13px;
+  margin-top: 18px;
+}
+.ctrl:nth-child(10){
+  height: 13px;
+  margin-top: 18px;
+}
+#up{
+  height: 12.5px;
+  box-shadow: 0 0 3px 0 gray;
+  border-radius: 3px;
+}
+#down{
+  margin-top: 5px;
+  box-shadow: 0 0 4px 0 grey;
+  height: 12.5px;
+  border-radius: 3px;
+}
